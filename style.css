@@ -21,8 +21,9 @@
 .aubtn{
     background-color:white;
     width:150px;
-    height:25px;
+    height:35px;
     border-radius:7px;
+    box-sizing: border-box;
 }
 /*Banner Section */
 .banner{
