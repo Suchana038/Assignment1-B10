@@ -98,9 +98,11 @@ font-weight: 400;
 text-align: center;
 padding: 40px;
 
+
 }
 .coding-section{
     display: flex;
+   
    
 
 }
@@ -116,6 +118,7 @@ font-size: 24px;
 font-weight: 700;
 text-align: left;
 margin-left: 100px;
+;
 }
 .coding-description{
 color: rgba(13, 19, 33,0.7);
@@ -124,6 +127,8 @@ font-weight: 400;
 text-align: left;
 margin-left: 100px;
 margin-right: 30px;
+
+
 }
 .span-btn{
     border: 1px solid black;
@@ -133,5 +138,58 @@ font-size: 10px;
 font-weight: 600;
 text-align: center;
 margin-left: 100px;
-}
 
+}
+.inspiration-container{
+ display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+}
+.inspiration-section{
+    
+    max-width: 950px;
+    max-height:1090px;
+    margin: 0 auto;
+    padding:100px;
+    
+}
+.inspiration-title{
+ color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 700;
+text-align: center
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+.inspiration-description{
+    color: rgba(13, 19, 33,0.7);
+
+font-size: 16px;
+font-weight: 400;
+
+text-align: center;
+margin-bottom: 48px;
+}
+.inspiration-video{
+
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+height: 500px;
+width: 860px;
+margin: 70px;
+
+}
+.iframe-video {
+    width: 805px;
+height: 450px;
+    margin: 28px;
+    
+}
+  
