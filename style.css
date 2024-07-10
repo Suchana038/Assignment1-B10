@@ -159,10 +159,10 @@ padding: 0px;
 }
 .inspiration-title{
  color: rgb(13, 19, 33);
-font-size: 32px;
+font-size: 27px;
 font-weight: 700;
 text-align: center
-display: flex;
+ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
@@ -171,11 +171,11 @@ padding: 0px;
 .inspiration-description{
     color: rgba(13, 19, 33,0.7);
 
-font-size: 16px;
+font-size: 13px;
 font-weight: 400;
 
 text-align: center;
-margin-bottom: 48px;
+
 }
 .inspiration-video{
 
@@ -192,4 +192,80 @@ height: 450px;
     margin: 28px;
     
 }
-  
+.target-section{
+ width: 840px;
+height: 153px;
+margin: 0 auto;
+
+}
+ .target-container {
+    text-align: center;
+ }
+ .target-title{
+color: rgb(13, 19, 33);
+font-size: 22px;
+font-weight: 700;
+text-align: center;
+ }
+ .target-description{
+ color: rgba(13, 19, 33,0.7);
+font-size: 13px;
+font-weight: 400;
+text-align: center;
+ }
+.card-container{
+    width:810px;
+height: 299px;
+margin: 0 auto;
+display: flex ;
+justify-content:space-around;
+align-items: center;
+gap: 13px;
+
+}
+.card1{
+    width:350px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    
+    
+}
+.card2{
+    border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+width: 350px;
+}
+.card3{
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+width: 350px;
+}
+.card-img{
+    margin-top: 20px;
+    max-width: auto;
+    margin-left:20px ;
+    width: 35px;
+}
+ .card-content{
+    color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 800;
+text-align: left;
+margin-left: 28px;
+ }
+ .card-description{
+color: rgba(13, 19, 33, 0.7);
+font-size: 12px;
+font-weight: 400;
+text-align: left;
+margin-left: 28px;
+margin-right: 37px;
+ }
+ .card-more{
+color: rgb(13, 19, 33);
+font-size: 12px;
+font-weight: 700;
+text-align: left;
+text-decoration-line: underline;
+margin-left: 28px;
+ }
