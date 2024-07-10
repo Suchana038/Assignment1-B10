@@ -178,7 +178,6 @@ text-align: center;
 
 }
 .inspiration-video{
-
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
 height: 500px;
@@ -269,3 +268,47 @@ text-align: left;
 text-decoration-line: underline;
 margin-left: 28px;
  }
+
+ .handshake-section{
+    width:810px;
+    height: 314px;
+    text-align: center;
+    border: 1px solid red;
+    margin: 0 auto;
+    background-image: url('assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ }
+ .handshake-title {
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+ }
+.handshake-description{
+color: rgb(255, 255, 255);
+font-size: 12px;
+font-weight: 400;
+margin-bottom: 80px;
+}
+ .handshake-input1{
+    width: 300px;
+    height: 27px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    text-align: justify;
+    padding-left: 12px;
+  
+ }
+   .handshake-input2{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+  }
+  .handshake-div{
+      margin:100px;
+  }
+  
